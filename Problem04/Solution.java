@@ -16,13 +16,10 @@ public class Solution {
 		while (true)
 		{
 			if (!inputAL.contains(minPositiveNumber))
-			{
 				break;
-			}
-
+			
 			minPositiveNumber++;
 		}
-
 		return minPositiveNumber;
 	}
 }
